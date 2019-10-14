@@ -1,17 +1,43 @@
 {
-  "name": "",
-  "version": "",
+  "name": "reacting-to-tasks",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
+  "main": "webpack.config.js",
   "scripts": {
+    "test": "jest",
+    "start-live-server": "webpack -d --watch & live-server --port=3030 --watch=dist --open=dist",
+    "build": "webpack -d --watch",
+    "server": "nodemon ./server/server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "http://www.github.com"
+  },
+  "homepage": "http://www.github.com",
   "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.0",
+    "mongoose": "^5.5.14",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "live-server": "^1.2.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.0",
+    "path": "^0.12.7",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
   }
 }
