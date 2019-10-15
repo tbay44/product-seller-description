@@ -7,7 +7,8 @@
     "test": "jest",
     "start-live-server": "webpack -d --watch & live-server --port=3030 --watch=dist --open=dist",
     "build": "webpack -d --watch",
-    "server": "nodemon ./server/server.js"
+    "server": "nodemon ./server/server.js",
+    "lint": "eslint client/**/*.js client/**/*.jsx"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,7 @@
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.16.0",
     "live-server": "^1.2.1",
     "mysql": "^2.17.1",
     "nodemon": "^1.19.0",
