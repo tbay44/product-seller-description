@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Head = ({ name, rating, numRatings }) => (
+const Head = ({ name, rating, reviewCount }) => (
     <div className= "head">
         Head
         <br></br>
-        {name}
+        product_name: {name}
         <br></br>
-        {rating}
+        rating: {rating}
         <br></br>
-        {numRatings}
+        review_count: {reviewCount}
     </div>
 );
 
 Head.propTypes = {
   name: PropTypes.string.isRequired,
   rating: PropTypes.number.isRequired,
-  numRatings: PropTypes.number.isRequired,
+  reviewCount: PropTypes.number.isRequired,
 };
 
 export default Head;

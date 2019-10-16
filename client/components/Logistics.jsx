@@ -5,7 +5,7 @@ const Logistics = ({ shipping }) => (
     <div className= "logistics">
         Logistics
         <br></br>
-        {shipping}
+        shipping: {shipping}
     </div>
 );
 

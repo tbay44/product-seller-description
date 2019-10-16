@@ -37,9 +37,9 @@ const Model = mongoose.model('product', productSchema);
 
 // Model.insertMany(data);
 
-function getAllData() {
+function getData(id) {
   return new Promise((resolve, reject) => {
-    Model.find({}, (err, results) => {
+    Model.find({ id }, (err, results) => {
       if (err) {
         reject(err);
       } else {
@@ -49,4 +49,4 @@ function getAllData() {
   });
 }
 
-module.exports = { getAllData };
+module.exports = { getData };

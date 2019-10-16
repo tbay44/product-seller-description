@@ -5,7 +5,7 @@ const Price = ({ price }) => (
     <div className= "price">
         Price
         <br></br>
-        {price}
+        price: {price}
     </div>
 
 );

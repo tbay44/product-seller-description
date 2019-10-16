@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Seller = ({ seller, numRatings, feedback }) => (
+const Seller = ({ seller, sellerRatingCount, sellerFeedback }) => (
     <div className= "seller">
         Seller
         <br></br>
-        {seller}
+        seller: {seller}
         <br></br>
-        {numRatings}
+        sellerRating_count: {sellerRatingCount}
         <br></br>
-        {feedback}
+        seller_feedback: {sellerFeedback}%
     </div>
 );
 
 Seller.propTypes = {
   seller: PropTypes.string.isRequired,
-  numRatings: PropTypes.number.isRequired,
-  feedback: PropTypes.number.isRequired,
+  sellerRatingCount: PropTypes.number.isRequired,
+  sellerFeedback: PropTypes.string.isRequired,
 };
 
 export default Seller;
