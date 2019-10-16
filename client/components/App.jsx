@@ -35,18 +35,23 @@ class App extends React.Component {
           rating = {this.state.rating}
           numRatings = {this.state.numRatings}
         />
+        <br></br>
         <Subhead
           condition = {this.state.condition}
           sold = {this.state.numSold}
           availability = {this.state.availability}
         />
+        <br></br>
         <Price
           price = {this.state.price}
         />
+        <br></br>
         <Logistics
           shipping = {this.state.shipping}
         />
+        <br></br>
         <Guarentee />
+        <br></br>
         <Seller
           seller = {this.state.seller}
           numRatings = {this.state.sellerRatings}
