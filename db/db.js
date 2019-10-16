@@ -21,13 +21,16 @@ const { Schema } = mongoose;
 const productSchema = new Schema({
   id: Number,
   product_name: String,
-  prime_pic: String,
   price: String,
   seller: String,
   rating: Number,
   shipping: Boolean,
   condition: Boolean,
   availability: Number,
+  review_count: Number,
+  sale_count: Number,
+  sellerRating_count: Number,
+  seller_feedback: String,
 });
 // Compile model from schema
 const Model = mongoose.model('product', productSchema);
