@@ -3,17 +3,17 @@ const mongoose = require('mongoose');
 // const data = require('./data.js');
 
 // Set up default mongoose connection
-const mongoDB = 'mongodb://127.0.0.1:27017/product-description-data';
+const mongoDB = 'mongodb+srv://ethanhogan:gotigers225@cluster0-obkqw.mongodb.net/product-description-data?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-});
-
-// Bind connection to error event (to get notification of connection errors)
-// db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-// db.once('open', () => {
-//   console.log('DB is connected!');
-// });
+})
+  .then(() => {
+    // eslint-disable-next-line no-console
+    console.log('Database connection established!');
+  })
+  // eslint-disable-next-line no-console
+  .catch((err) => console.log(err));
 
 // Define schema
 const { Schema } = mongoose;
@@ -21,6 +21,7 @@ const { Schema } = mongoose;
 const productSchema = new Schema({
   id: Number,
   product_name: String,
+  prime_pic: String,
   price: String,
   seller: String,
   rating: Number,
