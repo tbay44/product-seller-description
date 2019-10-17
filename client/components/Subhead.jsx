@@ -4,11 +4,12 @@ import PropTypes from 'prop-types';
 const Subhead = ({ condition, sold, availability }) => (
     <div className= "subhead">
         Subhead
-        {condition}
         <br></br>
-        {sold}
+        condition: {condition}
         <br></br>
-        {availability}
+        sale_count: {sold}
+        <br></br>
+        availability: {availability}
     </div>
 );
 

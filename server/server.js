@@ -9,8 +9,9 @@ app.use(express.static('dist'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.get('/test', (req, res) => {
-  db.getAllData()
+app.get('/data', (req, res) => {
+  const { id } = req.query;
+  db.getData(id)
     .then((results) => res.send(results));
 });
 

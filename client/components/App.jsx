@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import Head from './Head.jsx';
 import Subhead from './Subhead.jsx';
 import Price from './Price.jsx';
@@ -10,19 +11,47 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: 1,
-      product_name: 'Founders Fresh Metal Golf Clubs Fairway Woods Graphite Shaft Pick Flex & Loft',
-      price: '$78099.96',
-      seller: 'AmerisourceBergen Corporation (Holding Co)',
-      rating: 3,
+      id: 3,
+      product_name: '',
+      price: '',
+      condition: false,
+      rating: 0,
+      review_count: 0,
+      availability: 0,
+      sale_count: 0,
+      seller: '',
+      sellerRating_count: 0,
+      seller_feedback: '',
       shipping: false,
-      condition: true,
-      availability: 128,
-      numRatings: 10,
-      numSold: 10,
-      sellerRatings: 2831,
-      sellerFeedback: 99.5,
     };
+  }
+
+  componentDidMount() {
+    this.getDataAndUpdateState();
+  }
+
+  getDataAndUpdateState() {
+    axios.get('/data', {
+      params: {
+        id: this.state.id,
+      },
+    })
+      .then((response) => {
+        const data = response.data[0];
+        this.setState({
+          product_name: data.product_name,
+          price: data.price,
+          condition: data.condition,
+          rating: data.rating,
+          review_count: data.review_count,
+          availability: data.availability,
+          sale_count: data.sale_count,
+          seller: data.seller,
+          sellerRating_count: data.sellerRating_count,
+          seller_feedback: data.seller_feedback,
+          shipping: data.shipping,
+        });
+      });
   }
 
 
@@ -33,12 +62,12 @@ class App extends React.Component {
         <Head
           name = {this.state.product_name}
           rating = {this.state.rating}
-          numRatings = {this.state.numRatings}
+          reviewCount = {this.state.review_count}
         />
         <br></br>
         <Subhead
           condition = {this.state.condition}
-          sold = {this.state.numSold}
+          sold = {this.state.sale_count}
           availability = {this.state.availability}
         />
         <br></br>
@@ -54,8 +83,8 @@ class App extends React.Component {
         <br></br>
         <Seller
           seller = {this.state.seller}
-          numRatings = {this.state.sellerRatings}
-          feedback = {this.state.sellerFeedback}
+          sellerRatingCount = {this.state.sellerRating_count}
+          sellerFeedback = {this.state.seller_feedback}
         />
       </div>
     );
