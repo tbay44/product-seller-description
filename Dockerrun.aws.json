@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "EthanHogan/product-seller-description",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "3007"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
