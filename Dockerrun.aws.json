@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "ethanhogan/product-seller-description",
+    "Name": "ethanhogan/tbay-description",
     "Update": "true"
   },
   "Ports": [
