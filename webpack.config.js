@@ -7,7 +7,7 @@ const DIST_DIR = path.join(__dirname, '/dist');
 const htmlPlugin = new HtmlWebPackPlugin({
   template: './client/index.html',
   filename: './index.html',
-})
+});
 
 module.exports = {
   entry: `${SRC_DIR}/index.js`,
