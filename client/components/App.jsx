@@ -11,7 +11,8 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      id: 3,
+      // eslint-disable-next-line no-undef
+      id: 4,
       product_name: '',
       price: '',
       condition: false,
