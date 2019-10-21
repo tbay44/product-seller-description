@@ -1,11 +1,14 @@
 const express = require('express');
+const path = require('path');
 const db = require('../db/db.js');
 // const cors =require('cors')
 
 const app = express();
 const port = 3007;
 
-app.use(express.static('dist'));
+const DIST_DIR = path.join(__dirname, '../dist');
+
+app.use(express.static(DIST_DIR));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
