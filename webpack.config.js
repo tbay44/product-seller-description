@@ -15,9 +15,12 @@ module.exports = {
     filename: 'bundle.js',
     path: DIST_DIR,
   },
-  plugins: [htmlPlugin],
   module: {
     rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
       {
         test: /\.js?/,
         include: SRC_DIR,
@@ -25,4 +28,5 @@ module.exports = {
       },
     ],
   },
+  plugins: [htmlPlugin],
 };

@@ -15,7 +15,8 @@ app.use(express.json());
 app.get('/data', (req, res) => {
   const { id } = req.query;
   db.getData(id)
-    .then((results) => res.send(results));
+    .then((results) => res.send(results))
+    .catch((err) => res.send(err));
 });
 
 app.listen(port, () => {
