@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Subhead.css';
 
 const Subhead = ({ condition, sold, availability }) => (
     <div className= "subhead">

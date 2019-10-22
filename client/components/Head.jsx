@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Head.css';
 
 const Head = ({ name, rating, reviewCount }) => (
     <div className= "head">

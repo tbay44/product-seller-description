@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../styles/Seller.css';
 
 const Seller = ({ seller, sellerRatingCount, sellerFeedback }) => (
     <div className= "seller">

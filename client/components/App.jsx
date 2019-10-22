@@ -6,13 +6,14 @@ import Price from './Price.jsx';
 import Logistics from './Logistics.jsx';
 import Guarentee from './Guarentee.jsx';
 import Seller from './Seller.jsx';
+import '../styles/App.css';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       // eslint-disable-next-line no-undef
-      id: 4,
+      id: 36,
       product_name: '',
       price: '',
       condition: false,
