@@ -1,0 +1,4 @@
+.price {
+  background-color: rgb(172, 243, 106);
+  grid-row: 3 / span 1;
+}

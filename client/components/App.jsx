@@ -13,7 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       // eslint-disable-next-line no-undef
-      id: 36,
+      id: 1,
       product_name: '',
       price: '',
       condition: false,
@@ -59,35 +59,35 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="main">
-        <div>{this.state.data}</div>
-        <Head
-          name = {this.state.product_name}
-          rating = {this.state.rating}
-          reviewCount = {this.state.review_count}
-        />
-        <br></br>
-        <Subhead
-          condition = {this.state.condition}
-          sold = {this.state.sale_count}
-          availability = {this.state.availability}
-        />
-        <br></br>
-        <Price
-          price = {this.state.price}
-        />
-        <br></br>
-        <Logistics
-          shipping = {this.state.shipping}
-        />
-        <br></br>
-        <Guarentee />
-        <br></br>
-        <Seller
-          seller = {this.state.seller}
-          sellerRatingCount = {this.state.sellerRating_count}
-          sellerFeedback = {this.state.seller_feedback}
-        />
+      <div className="app">
+        <div className="left-col">
+          <Head
+            name = {this.state.product_name}
+            rating = {this.state.rating}
+            reviewCount = {this.state.review_count}
+          />
+          <div className="grey-line"></div>
+          <Subhead
+            condition = {this.state.condition}
+            sold = {this.state.sale_count}
+            availability = {this.state.availability}
+          />
+          <div className= "space-1"></div>
+          <Price
+            price = {this.state.price}
+          />
+          <Logistics
+            shipping = {this.state.shipping}
+          />
+        </div>
+        <div className="right-col">
+          <Guarentee />
+          <Seller
+            seller = {this.state.seller}
+            sellerRatingCount = {this.state.sellerRating_count}
+            sellerFeedback = {this.state.seller_feedback}
+          />
+        </div>
       </div>
     );
   }

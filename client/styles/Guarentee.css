@@ -1,0 +1,5 @@
+.guarentee {
+  background-color: rgb(243, 184, 106);
+  margin-left: 15px;
+  grid-row: 1 / span 1;
+}
