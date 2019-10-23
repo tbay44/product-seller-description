@@ -3,14 +3,12 @@ import PropTypes from 'prop-types';
 import '../styles/Head.css';
 
 const Head = ({ name, rating, reviewCount }) => (
-    <div className= "head">
-        Head
-        <br></br>
-        product_name: {name}
-        <br></br>
-        rating: {rating}
-        <br></br>
-        review_count: {reviewCount}
+    <div className="head">
+      <h2>{name}</h2>
+      <div className="rating">
+        <div className="stars">{rating} stars here</div>
+        <p className="count">{reviewCount} product ratings </p>
+      </div>
     </div>
 );
 

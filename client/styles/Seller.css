@@ -1,0 +1,5 @@
+.seller {
+  background-color: rgb(106, 243, 202);
+  margin-left: 15px;
+  grid-row: 2 / span 2;
+}

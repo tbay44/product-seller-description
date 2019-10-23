@@ -1,0 +1,42 @@
+.app {
+  background-color: #f8f8f8;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  height: 565px;
+  width:957px;
+}
+
+.left-col {
+  max-width: 642px;
+  min-width: 405px;
+}
+
+.right-col {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.grey-line {
+  color: #333;
+  line-height: normal;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  border-top: 1px solid #CCC;
+  margin: 10px 5px 10px 25px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.space-1 {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  clear: both;
+  height: .625rem;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}

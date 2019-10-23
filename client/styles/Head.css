@@ -1,3 +1,53 @@
-/* .head {
-  background-color: red;
-} */
+.head {
+  margin: 0px;
+  padding: 0px;
+  min-height: 52px;
+  max-height: 75px;
+}
+
+.head h2 {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.rating {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  border: 0;
+  font-weight: normal;
+  font-family: verdana !important;
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+.stars {
+  display: inline-block;
+  width: 89px;
+}
+
+.count {
+  display: inline;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: #0654ba;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  cursor: pointer;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+}
+
+.count:hover {
+  text-decoration-color: rgb(6, 84, 186);
+  text-decoration: underline;
+}
+
