@@ -13,7 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       // eslint-disable-next-line no-undef
-      id: 1,
+      id: 3,
       product_name: '',
       price: '',
       condition: false,
@@ -24,7 +24,7 @@ class App extends React.Component {
       seller: '',
       sellerRating_count: 0,
       seller_feedback: '',
-      shipping: false,
+      shipping: true,
     };
   }
 
@@ -33,7 +33,7 @@ class App extends React.Component {
   }
 
   getDataAndUpdateState() {
-    axios.get('/data', {
+    axios.get('http://tbay-description.us-east-2.elasticbeanstalk.com/data', {
       params: {
         id: this.state.id,
       },

@@ -2,13 +2,13 @@
   background-color: #f8f8f8;
   display: grid;
   grid-template-columns: 3fr 2fr;
-  height: 565px;
-  width:957px;
+  height: 100%;
+  width:100%;
 }
 
 .left-col {
-  max-width: 642px;
   min-width: 405px;
+  height: 100%;
 }
 
 .right-col {
@@ -40,3 +40,4 @@
   height: .625rem;
   font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
 }
+

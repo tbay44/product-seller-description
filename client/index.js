@@ -3,4 +3,4 @@ import ReactDOM from 'react-dom';
 import App from './components/App.jsx';
 import './styles/index.css';
 
-ReactDOM.render(<App />, document.getElementById('description'));
+ReactDOM.render(<App />, document.getElementById('description-root'));

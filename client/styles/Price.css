@@ -1,4 +1,220 @@
-.price {
+.description-price {
   background-color: rgb(172, 243, 106);
-  grid-row: 3 / span 1;
+  height: 32%;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  font-weight: normal;
+  font-size: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 4px 4px 1px #eee;
+  margin-bottom: 0;
+  margin-right: 5px;
+  padding: 0;
+  background: #e2e2e2;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
 }
+
+.description-price-top-row {
+  height: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description-price-top-row-left {
+  grid-column: 1;
+}
+
+.description-price-top-row-left-wrap {
+  display: inline;
+  margin-left: 30px;
+}
+
+.description-price-top-row-left-wrap label {
+  display: inline-block;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  padding-top: 14px;
+  font-size: small;
+  text-align: right;
+  color: #636363;
+  width: 21%;
+  padding-right: 13px;
+  font-weight: normal;
+  word-wrap: break-word;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-price-top-row-left-wrap h1 {
+  display: inline-block;
+  font: bold medium Trebuchet,"Trebuchet MS";
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
+.description-price-top-row-right {
+  grid-column: 2;
+}
+
+.buy-now {
+  line-height: normal;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.04);
+  vertical-align: baseline;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  zoom: 1;
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 0;
+  padding-right: 0;
+  background: -webkit-gradient(linear,left top,left bottom,from(#0079bc),to(#00509d));
+  text-decoration: none;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  filter: none;
+  font-weight: 700;
+  font-size: 16px;
+  width: 8.5625rem;
+  color: white;
+  margin-top: 10px;
+}
+
+.add-to-cart {
+  line-height: normal;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.04);
+  vertical-align: baseline;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  zoom: 1;
+  display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 0;
+  padding-right: 0;
+  background: -webkit-gradient(linear,left top,left bottom,from(#45aad6),to(#2386c0));
+  text-decoration: none;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  filter: none;
+  font-weight: 700;
+  font-size: 16px;
+  width: 8.5625rem;
+  color: white;
+  margin-top: 10px;
+}
+
+.add-to-watch {
+  line-height: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  padding: .5em .5em;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.04);
+  vertical-align: baseline;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  zoom: 1;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  filter: none;
+  border: 1px solid #ddd;
+  background: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f8f8f8));
+  text-decoration: none;
+  color: #0654ba;
+  width: 7.75rem;
+  height: 1rem;
+  margin-top: 10px;
+}
+
+.add-to-watch-heart{
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #0654ba;
+  padding: 0;
+  border: 0;
+  padding-top: .125rem;
+  height: .75rem;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  filter: none;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAaCAYAAACkVDyJAAAAAXNSR0IArs4c6QAAA/hJREFUSA21ll1oXEUUx+fM3uzeTVLbopJWqdSHQCERwQ/UCrFrdyNixQSzm02pRoog+CKID7ZY7IPgB75IBG2fKsZ2k4200NbUZDcb+yAV8UFEfGjB4INt8cGITTZ39849/s9Npmw3aZq268ByZuac8//dM3dm7pKqa7H05HNMvIeYtjNzGxHNIuS8UnS8SUW/vJLv+qs2pTV99u6qqrykFPdivh05G5BzGRrfQ2PYy6dO18aTHbSkS5t85eeQ8JSdW25plhS97Y0lD4kv1ld4jRV/ANiG5bGLM4B/5ygnO5dPXJKZELgE+wGw+xTRFUX8foTpbMu6+M/l8kJzNeDHyTDE1bOLSfSxWMDeWhyrcY7QoSZN5+Jxd37u3/KDhrhLMe1TzK2A/gHoYwINgVjG6bAyoh91xMks5BIzIlTf4n2FrKHgC5CioY9UJcJ6sDyWzNXHytjNlrYGxh8F9FGpFMu7g8J3xnxKKgPsgevBrGAsU3ye2ZyQMVGkxxvdedL6VrJL0F+WKt2lZYOEgVjGG8EkTgBYljfldyOYxIea0Ja+sJxwN2KN5J3J5Fqal+/+ZC1xNka0DRjC0nh3beKQDWIDGm2ttrA0luYfAcx51fWNBlk9q42NM6ux1X8XR1D1O2xAo63VRoUzGifxGwFwoAYbDbJ6V7XB0tSkjgEa4I2+KFvYBjXKhprQFgappqPaO9p9Hvv1iBxmNv7njQJZnVBTLgowvHzighaH4/ABPMHfWONn3L6JV23w7VrREk3RdtzYO6IXAudz3X8q0ntlIlDq03hm6knp306LZ4vbRSvUgPb8cNdF6YdA6VRGkydIq4/QjRn2T7b2lzpl/laa5Bpj5MqLiaZoW53w8rYDlI+7tfAV9uwAzsxl1ipRGUn9Zv1rsdGB0jbyffkYtKGcnDeS2g0tnL7FdrVCGYqjne55BU8xLgkUqNLNVNo6MNVhYdA60873DtbChHENUCZ+zXdUtmy+v1cSBFox/nRzeuph8a3WmvuLD1V9E1aG3G+3bNraI1r1OcuAEnBhqN2TBHzdT2F57/TZlNzs5I76ZDt2M8UuPzAlPOBdgJ3e3OL0iIb119oVgRIgCU90OvifQscAXRcYNR7tn3yhNln6sf7CroCDMzjHd+CdjHRu3Ng7cySxUB9nx9cFSsD0wYS/vzO5B0/9GT6grgr4azczudcmu5nCIBs+Dl8cMYf3dyR3/3T4kar1r2Sv2aUrBdg5gA4GAb8bjon2IdEwqw9RPWlN7y2Mpg7Y2NXsmoEign9przMFQ1i+pZXBJ1WpN7yx1NBqkFrfTQElMdo3kcZVNSz9iNIvl/PJEen/r81NF592sxM7bwXyH8fitetAhvOzAAAAAElFTkSuQmCC) no-repeat;
+  background-size: .75rem .6875rem;
+  position: relative;
+  top: .1875rem;
+  margin: 0;
+  display: inline-block;
+  float: none;
+  width: .75rem;
+}
+
+.add-to-watch-txt{
+  line-height: normal;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #0654ba;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  filter: none;
+}
+
+.description-price-bot-row {
+  height: 25%;
+  display: grid;
+  grid-template-columns: 33%, 33%, 33%;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  border: 2px solid #e2e2e2;
+  border-radius: 3px;
+  margin-top: 1%;
+}
+
+.description-price-bot-row-txt {
+  line-height: normal;
+  text-align: center;
+  margin-top: 16px;
+  border: 0;
+  display: block;
+  padding: 0 4px;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-price-bot-row-left {
+  grid-column: 1;
+  border-right: 1px solid#e2e2e2;
+}
+
+.description-price-bot-row-mid {
+  grid-column: 2;
+  border-right: 1px solid#e2e2e2;
+}
+
+.description-price-bot-row-right {
+  grid-column: 3;
+}
+
