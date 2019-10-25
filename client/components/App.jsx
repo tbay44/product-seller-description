@@ -13,7 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       // eslint-disable-next-line no-undef
-      id: 3,
+      id: 1,
       product_name: '',
       price: '',
       condition: false,
@@ -30,12 +30,18 @@ class App extends React.Component {
 
   componentDidMount() {
     this.getDataAndUpdateState();
+
+    window.addEventListener("uniqueId", (event) => {
+      this.setState({
+        id: window.uniqueId,
+      }, () => {this.getDataAndUpdateState()});
+    });
   }
 
   getDataAndUpdateState() {
     axios.get('http://tbay-description.us-east-2.elasticbeanstalk.com/data', {
       params: {
-        id: this.state.id,
+        id: window.uniqueId || 3,
       },
     })
       .then((response) => {

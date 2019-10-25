@@ -1,8 +1,10 @@
 #description-root {
-  width: 957px;
-  max-width: 957px;
-  min-width: 720px;
+  /* max-width: 957px;
+  min-width: 774px; */
   height: 565px;
   position: relative;
   z-index: 1;
+  margin: 15px 0px;
+  width: 63.9%;
+  min-width: 755.3px;
 }

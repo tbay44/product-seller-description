@@ -1,5 +1,212 @@
-.seller {
+.description-seller {
   background-color: rgb(106, 243, 202);
   margin-left: 15px;
-  grid-row: 2 / span 2;
+  height: 32%;
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  border-radius: 3px;
+  box-shadow: 4px 4px 1px #eee;
+  display: inline-block;
+  width: 94%;
+  border: 1px solid #ccc;
+  padding: 0;
+  background-color: white;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  margin-bottom: 10px;
+  height: 32%;
 }
+
+.description-seller .description-seller-inner-wrapper {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  padding: 9px 0 11px 11px;
+  display: inline-block;
+  width: 99%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .header {
+  border: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  line-height: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .name-rating-star-wrap {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: small;
+  display: inline-block;
+  word-wrap: break-word;
+  width: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .name-rating-star-wrap a {
+  text-decoration: none;
+}
+
+.description-seller .description-seller-inner-wrapper .name-rating-star-wrap .name-span {
+  line-height: normal;
+  color: #0654ba;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: bold;
+  white-space: normal !important;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  cursor: pointer;
+}
+
+.description-seller .description-seller-inner-wrapper .name-rating-star-wrap .rating-star-wrap {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  margin-right: 5px;
+  display: inline-block;
+  white-space: nowrap;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .name-rating-star-wrap .rating-star-wrap .star {
+  color: #333;
+  line-height: normal;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  background: url('//p.ebaystatic.com/aw/cmp/ds3/sprds3_11.png');
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  margin-top: -5px;
+  background-position: -226px -436px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .feedback {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  font-size: .75rem;
+  padding-top: 5px;
+}
+
+.description-seller .description-seller-inner-wrapper .seller-dotted-line {
+  color: #333;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  line-height: 1px;
+  height: 1px;
+  font-size: 1px;
+  border-top: 2px dotted #999;
+  margin: 10px 0 10px 0;
+  width: 94%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .save-wrapper {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 13px;
+  color: #666;
+  padding-bottom: 3px;
+  overflow: hidden;
+  width: 95%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .save-wrapper .heart {
+  line-height: 1;
+  color: #0a3dab !important;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: linear-gradient(transparent,transparent),url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+CjwhLS1JY29ucyBmcm9tIGRpcmVjdG9yeSAiIi0tPgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjMyIiB2aWV3Qm94PSIwIDAgMTYgMzIiPjxzdmcgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIGlkPSJ3ZWJfSGVhcnRBc3NldC0wMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTYgMTYiIHhtbDpzcGFjZT0icHJlc2VydmUiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiB2ZXJzaW9uPSIxLjEiIHk9IjAiIHg9IjBweCI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4JLnN0MHtmaWxsOiMwNjU0QkE7fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0ibTExLjggMC45Yy0xLjYgMC0zIDEuMS0zLjggMS45LTAuOC0wLjctMi4yLTEuOS0zLjgtMS45LTIuMi0wLjEtNC4yIDEuNy00LjIgNC4xIDAgMyAzIDUuNyA3LjEgOS41bDAuNiAwLjVzMC4yIDAuMSAwLjMgMC4xIDAuMy0wLjEgMC40LTAuMWwwLjYtMC41YzQtMy44IDctNi41IDctOS41IDAtMi40LTItNC4yLTQuMi00LjF6Ii8+PC9zdmc+PHN2ZyB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgaWQ9IndlYl9IZWFydEFzc2V0LTAyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNiAxNiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iMTYiIHZlcnNpb249IjEuMSIgeT0iMTYiIHg9IjBweCI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4JLnN0MHtmaWxsOiMwNjU0QkE7fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0ibTExLjggMC45Yy0xLjYgMC0zIDEuMS0zLjggMS45LTAuOC0wLjctMi4yLTEuOS0zLjgtMS45LTIuMi0wLjEtNC4yIDEuNy00LjIgNC4xIDAgMyAzIDUuNyA3LjEgOS41bDAuNiAwLjVzMC4yIDAuMSAwLjMgMC4xIDAuMy0wLjEgMC40LTAuMWwwLjYtMC41YzQtMy44IDctNi41IDctOS41IDAtMi40LTItNC4yLTQuMi00LjF6bS0zLjYgMTIuN2wtMC4yIDAuMS0wLjItMC4xYy0zLjktMy41LTYuNy02LjEtNi43LTguNiAwLTEuNyAxLjQtMyAzLTIuOSAxLjQgMCAyLjkgMS4zIDMuNCAyIDAuMiAwLjEgMC4zIDAuMiAwLjUgMC4yczAuMy0wLjEgMC41LTAuMmMwLjUtMC42IDItMiAzLjQtMiAxLjYtMC4xIDMgMS4yIDMgMi45IDAgMi41LTIuOCA1LjEtNi43IDguNnoiLz48L3N2Zz48L3N2Zz4K);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .save-wrapper span {
+  line-height: 1;
+  color: #0a3dab !important;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .save-wrapper span:hover {
+  text-decoration-line: underline;
+}
+
+.description-seller .description-seller-inner-wrapper .text-wrapper {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 6px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-seller .description-seller-inner-wrapper .text-wrapper .text {
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-decoration: none;
+  color: #0654ba;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  cursor: pointer;
+}
+
+.description-seller .description-seller-inner-wrapper .text-wrapper .text:hover {
+  text-decoration-line: underline;
+}
+

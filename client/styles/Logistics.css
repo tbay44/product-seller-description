@@ -1,7 +1,6 @@
 .description-logistics-true {
   background-color: #f8f8f8;
   margin-top: 20px;
-  border: 1px solid black;
   display: grid;
   grid-template-columns: 1fr 3fr;
   height: 33%;
@@ -95,5 +94,773 @@
   color: #23804f;
   font-weight: 400;
   font-size: 13px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap {
+  grid-row: 2;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 13px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap .shipping-date {
+  margin-top: 1px;
+}
+.description-logistics-true .right-column .shipping-guarentee-wrap .shipping-date p {
+  display: inline;
+
+
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap .shipping-date .green-text {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  color: #23804f !important;
+  font-weight: bold;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap .shipping-date .details-text {
+  line-height: normal;
+  font-weight: normal;
+  white-space: nowrap;
+  font-size: 10px;
+  font-family: Verdana !important;
+  width: 100%;
+  color: #555;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap .item-location {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 77%;
+  color: #666;
+  float: left;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.description-logistics-true .right-column .ship-to-location-wrap {
+  font-size: 77%;
+  color: #666;
+  margin-top: 5px;
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap .ship-to-location-wrap .ship-to-location {
+  display: inline;
+}
+
+.description-logistics-true .right-column .shipping-guarentee-wrap .ship-to-location-wrap .details-text {
+  display: inline;
+  line-height: normal;
+  font-size: 100%;
+  font-weight: normal !important;
+  color: #555;
+  text-decoration: underline;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  cursor: pointer;
+}
+
+.description-logistics-true .right-column .payments-card-images-wrap {
+  grid-row: 4;
+}
+
+.description-logistics-true .right-column .payments-card-images-wrap img {
+  margin-right: 4px;
+}
+
+.description-logistics-true .right-column .payments-card-images-wrap .card-image-paypal {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -155px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+
+.description-logistics-true .right-column .payments-card-images-wrap .card-image-visa {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: 0 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+.description-logistics-true .right-column .payments-card-images-wrap .card-image-mastercard {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -39px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+.description-logistics-true .right-column .payments-card-images-wrap .card-image-american-express{
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -77px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .payments-card-images-wrap .card-image-discover {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -116px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .paypal-credit-wrap {
+  grid-row: 6;
+}
+
+.description-logistics-true .right-column .paypal-credit-wrap .paypal-credit-img {
+  color: #333;
+  line-height: normal;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0 1px -4px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .paypal-text-wrap {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 11px;
+  padding-top: 5px;
+  color: #333;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .paypal-text-wrap .paypal-text{
+  line-height: normal;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .paypal-text-wrap .paypal-text {
+  display: inline;
+}
+
+.description-logistics-true .right-column .paypal-text-wrap .financing {
+  margin-right: 4px;
+  line-height: normal;
+  color: #333;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .paypal-text-wrap .apply-terms {
+  line-height: normal;
+  font-weight: normal;
+  font-family: Verdana !important;
+  font-size: 10px;
+  color: #555;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description-logistics-true .right-column .paypal-text-wrap .divider {
+  margin: 0px 3px 0px 3px;
+  line-height: normal;
+  color: #333;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .returns-wrapper {
+  grid-row: 8;
+  line-height: normal;
+  font-size: small;
+  text-align: left;
+  color: #636363;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .returns-wrapper .returns {
+  display: inline;
+}
+
+.description-logistics-true .right-column .returns-wrapper .text {
+  color: #333;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .returns-wrapper .divider {
+  color: #333;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-true .right-column .returns-wrapper .details {
+  display: inline;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 15px;
+  font-weight: normal;
+  font-size: 10px;
+  font-family: Verdana !important;
+  white-space: nowrap;
+  color: #555;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+/* --------------------------------------------------FALSE------------------------------------------ */
+
+
+.description-logistics-false {
+  background-color: #f8f8f8;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 33%;
+}
+
+.description-logistics-false .left-column {
+  grid-column: 1;
+  display: grid;
+  grid-template-rows: 9% 17% 6% 9% 6% 14% 8% 17% 6% 8%;
+}
+
+.description-logistics-false .right-column {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 9% 17% 6% 9% 6% 14% 8% 17% 6% 8%;
+}
+
+.description-logistics-false .left-column .shipping-label {
+  grid-row: 1;
+  line-height: normal;
+  font-size: small;
+  text-align: right;
+  color: #636363;
+  padding-right: 13px;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .left-column .delivery-label {
+  grid-row: 4;
+  line-height: normal;
+  font-size: small;
+  text-align: right;
+  color: #636363;
+  padding-right: 13px;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .left-column .payments-label {
+  grid-row: 6;
+  line-height: 26px;
+  font-size: small;
+  text-align: right;
+  color: #636363;
+  padding-right: 13px;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .left-column .returns-label {
+  grid-row: 10;
+  line-height: normal;
+  font-size: small;
+  text-align: right;
+  color: #636363;
+  padding-right: 13px;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .standard-shipping-wrap {
+  grid-row: 1;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  transform: translateY(-3px);
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .standard-shipping-wrap p {
+  display: inline;
+}
+
+.description-logistics-false .right-column .standard-shipping-wrap .shipping-cost {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 82%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+.description-logistics-false .right-column .standard-shipping-wrap .shipping-text {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 82%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .standard-shipping-wrap .shipping-divider {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 82%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .standard-shipping-wrap .shipping-details {
+  line-height: normal;
+  font-weight: normal;
+  white-space: nowrap;
+  font-size: 10px;
+  font-family: Verdana !important;
+  width: 82%;
+  color: #555;
+  text-decoration: underline;
+}
+
+.description-logistics-false .right-column .location-wrap {
+  grid-row: 2;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 10px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  padding-top: 3px;
+}
+
+.description-logistics-false .right-column .location-wrap .item-location {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  padding-right: 5px;
+  color: #666;
+  float: left;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  display: block;
+  width: 100%;
+}
+
+.description-logistics-false .right-column .location-wrap .ships-to {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  padding-right: 5px;
+  color: #666;
+  float: left;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  display: block;
+  padding-top: 3px;
+}
+
+.description-logistics-false .right-column .payments-card-images-wrap {
+  grid-row: 6;
+}
+
+.description-logistics-false .right-column .payments-card-images-wrap img {
+  margin-right: 4px;
+}
+
+.description-logistics-false .right-column .payments-card-images-wrap .card-image-paypal {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -155px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+
+.description-logistics-false .right-column .payments-card-images-wrap .card-image-visa {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: 0 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+.description-logistics-false .right-column .payments-card-images-wrap .card-image-mastercard {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -39px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+.description-logistics-false .right-column .payments-card-images-wrap .card-image-american-express{
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -77px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .payments-card-images-wrap .card-image-discover {
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url("https://ir.ebaystatic.com/rs/v/mxn1vvvqlq2dnjfnomebf24shil.png");
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 24px;
+  display: inline-block;
+  background-position: -116px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .paypal-credit-wrap {
+  grid-row: 8;
+}
+
+.description-logistics-false .right-column .paypal-credit-wrap .paypal-credit-img {
+  color: #333;
+  line-height: normal;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0 1px -4px 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .paypal-text-wrap {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 11px;
+  padding-top: 5px;
+  color: #333;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .paypal-text-wrap .paypal-text{
+  line-height: normal;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .paypal-text-wrap .paypal-text {
+  display: inline;
+}
+
+.description-logistics-false .right-column .paypal-text-wrap .financing {
+  margin-right: 4px;
+  line-height: normal;
+  color: #333;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .paypal-text-wrap .apply-terms {
+  line-height: normal;
+  font-weight: normal;
+  font-family: Verdana !important;
+  font-size: 10px;
+  color: #555;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description-logistics-false .right-column .paypal-text-wrap .divider {
+  margin: 0px 3px 0px 3px;
+  line-height: normal;
+  color: #333;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .returns-wrapper {
+  grid-row: 10;
+  line-height: normal;
+  font-size: small;
+  text-align: left;
+  color: #636363;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .returns-wrapper .returns {
+  display: inline;
+}
+
+.description-logistics-false .right-column .returns-wrapper .text {
+  color: #333;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .returns-wrapper .divider {
+  color: #333;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 15px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .returns-wrapper .details {
+  display: inline;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 15px;
+  font-weight: normal;
+  font-size: 10px;
+  font-family: Verdana !important;
+  white-space: nowrap;
+  color: #555;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.description-logistics-false .right-column .dotted-line{
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  font-weight: normal;
+  font-size: 100%;
+  position: relative;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .dotted-line.one {
+  grid-row: 3;
+  border-bottom: 1px dashed #23804f;
+  bottom: 4px;
+}
+
+.description-logistics-false .right-column .dotted-line.two {
+  grid-row: 5;
+  border-top: 1px dashed #23804f;
+  top: 4px;
+}
+
+.description-logistics-false .right-column .delivery-wrap {
+  grid-row: 4;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  grid-row: 4;
+  line-height: normal;
+  font-size: small;
+  color: #636363;
+  font-weight: normal;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .delivery-wrap .default-text {
+  display: inline;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .delivery-wrap .date {
+  display: inline;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-logistics-false .right-column .delivery-wrap .question-mark-span {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  position: relative;
+  display: inline-block;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  padding-left: 2px;
+}
+
+.description-logistics-false .right-column .delivery-wrap .question-mark-span .question-mark-a {
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  height: 12px;
+  padding: 0 5px;
+  background: url(https://ir.ebaystatic.com/pictures/aw/pics/cmp/ds3/sprds3_18.png) repeat scroll -215px -409px transparent;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+  width: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: #0654ba;
   font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
 }

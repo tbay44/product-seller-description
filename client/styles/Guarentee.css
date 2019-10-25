@@ -1,5 +1,121 @@
-.guarentee {
+.description-guarentee {
   background-color: rgb(243, 184, 106);
   margin-left: 15px;
-  grid-row: 1 / span 1;
+  height: 15%;
+  color: #333;
+  line-height: normal;
+  font-weight: normal;
+  font-size: 100%;
+  padding: 14px 21px 20px 16px;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .shop-wrapper {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  margin-bottom: 13px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .shop-wrapper .shop {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+  line-height: 18px;
+  margin-left: 0;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .money-back-wrapper {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  display: table;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  margin-top: 5%;
+}
+
+.description-guarentee .money-back-wrapper .money-img-wrapper {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  display: table-cell;
+  padding-left: 3px;
+  vertical-align: middle;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .money-back-wrapper .money-img-wrapper .money-img {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  height: 25px;
+  display: inline-block;
+  background-size: 44px;
+  width: 21px;
+  background-image: url("https://ir.ebaystatic.com/rs/v/vswfg1if4iy2zhp0e3dxhytivik.png");
+  background-position: -12px -52px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .money-back-wrapper .message-wrapper {
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  padding-left: 15px;
+  display: table-cell;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .money-back-wrapper .message-wrapper .header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.16px;
+  color: #333;
+  margin-bottom: 4px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.description-guarentee .money-back-wrapper .message-wrapper .message {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.15px;
+  color: #767676;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
 }

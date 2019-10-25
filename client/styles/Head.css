@@ -3,6 +3,7 @@
   padding: 0px;
   min-height: 52px;
   max-height: 75px;
+  height: auto;
 }
 
 .head h2 {
@@ -14,6 +15,7 @@
   font-weight: 700;
   font-size: 18px;
   font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  text-align: left;
 }
 
 .rating {
@@ -24,7 +26,7 @@
   font-weight: normal;
   font-family: verdana !important;
   font-size: 10px;
-  padding: 10px 0;
+  padding-top: 10px;
 }
 
 .stars {
