@@ -3,6 +3,13 @@ import PropTypes from 'prop-types';
 import '../styles/Logistics.css';
 
 const Logistics = ({ shipping }) => {
+  let date = new Date();
+  const randomDay = Math.floor(Math.random() * (8 - 5) + 5);
+  date.setDate(date.getDate() + randomDay);
+  date = date.toString();
+  const weekDay = date.slice(0, 3);
+  const month = date.slice(4, 7);
+  const day = date.slice(8, 10);
   if (!shipping) {
     return (
       <div className="description-logistics-false">
@@ -26,7 +33,7 @@ const Logistics = ({ shipping }) => {
           <div className="dotted-line one"></div>
           <div className="delivery-wrap">
             <p className="default-text">Estimated on or before </p>
-            <p className="date">Fri. Nov. 01 </p>
+            <p className="date">{weekDay}. {month}. {day} </p>
             <p className="default-text">to 71270 </p>
             <span className="question-mark-span">
               <a className="question-mark-a"></a>
@@ -69,13 +76,13 @@ const Logistics = ({ shipping }) => {
         <div className="fast-n-free-wrap">
           <img alt="Estimated by tBay FAST 'N FREE " src="https://ir.ebaystatic.com/rs/v/xmyxg1ubry1npie2zlpan5za3yu.png"></img>
           <span className="fast-n-free-span">
-            <strong className="fast-n-free-text">FAST 'N FREE</strong>
+            <strong className="fast-n-free-text">{"FAST 'N FREE"}</strong>
           </span>
         </div>
         <div className="shipping-guarentee-wrap">
           <div className="shipping-date">
             <p className="black-text">Guaranteed by </p>
-            <p className="green-text">Tue. Oct. 29</p>
+            <p className="green-text">{weekDay}. {month}. {day}</p>
             <p className="divider"> | </p>
             <p className="details-text">See details</p>
           </div>

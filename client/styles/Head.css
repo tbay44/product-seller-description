@@ -53,3 +53,76 @@
   text-decoration: underline;
 }
 
+.head .rating .stars {
+  line-height: normal;
+  color: #0654ba;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  position: relative;
+  top: 2px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+}
+
+.head .rating .stars .empty {
+  line-height: normal;
+  color: #0654ba;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url('//ir.ebaystatic.com/f/ndzx0lxole32fflkcjkfbyzulah.png');
+  background-size: 185px 138px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-align: left;
+  display: inline-block;
+  background-position: -38px -122px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  margin-right: 2px;
+}
+
+.head .rating .stars .mid {
+  line-height: normal;
+  color: #0654ba;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url('//ir.ebaystatic.com/f/ndzx0lxole32fflkcjkfbyzulah.png');
+  background-size: 185px 138px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-align: left;
+  display: inline-block;
+  background-position: -56px -122px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  margin-right: 2px;
+}
+
+.head .rating .stars .full {
+  line-height: normal;
+  color: #0654ba;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  background-image: url('//ir.ebaystatic.com/f/ndzx0lxole32fflkcjkfbyzulah.png');
+  background-size: 185px 138px;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-align: left;
+  display: inline-block;
+  background-position: -20px -122px;
+  font-family: "Helvetica neue",Helvetica,Verdana,Sans-serif;
+  margin-right: 2px;
+}
+

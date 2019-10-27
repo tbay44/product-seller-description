@@ -13,7 +13,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       // eslint-disable-next-line no-undef
-      id: 1,
+      id: 2,
       product_name: '',
       price: '',
       condition: false,
@@ -31,17 +31,41 @@ class App extends React.Component {
   componentDidMount() {
     this.getDataAndUpdateState();
 
-    window.addEventListener("uniqueId", (event) => {
+    window.addEventListener('starAverage', () => {
       this.setState({
-        id: window.uniqueId,
-      }, () => {this.getDataAndUpdateState()});
+        rating: window.starAverage.starAverage,
+      });
     });
+
+    window.addEventListener('starAverage', () => {
+      this.setState({
+        review_count: window.starAverage.totalRatings,
+      });
+    });
+
+    window.addEventListener('uniqueId', () => {
+      this.setState({
+        id: window.uniqueId || 2,
+      }, () => { this.getDataAndUpdateState(); });
+    });
+  }
+
+  windowEmit() {
+    window.productName = this.state.product_name;
+    const productName = new CustomEvent(
+      'productName', {
+        detail: {
+          productName: 'changed',
+        },
+      },
+    );
+    window.dispatchEvent(productName);
   }
 
   getDataAndUpdateState() {
     axios.get('http://tbay-description.us-east-2.elasticbeanstalk.com/data', {
       params: {
-        id: window.uniqueId || 3,
+        id: window.uniqueId || 2,
       },
     })
       .then((response) => {
@@ -50,8 +74,6 @@ class App extends React.Component {
           product_name: data.product_name,
           price: data.price,
           condition: data.condition,
-          rating: data.rating,
-          review_count: data.review_count,
           availability: data.availability,
           sale_count: data.sale_count,
           seller: data.seller,
@@ -59,6 +81,9 @@ class App extends React.Component {
           seller_feedback: data.seller_feedback,
           shipping: data.shipping,
         });
+      })
+      .then(() => {
+        this.windowEmit();
       });
   }
 

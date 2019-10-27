@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Seller.css';
 
-const Seller = ({ seller, sellerRatingCount, sellerFeedback }) => {
-  const hello='hello';
-  return (
+const Seller = ({ seller, sellerRatingCount, sellerFeedback }) => (
     <div className="description-seller">
       <div className="description-seller-inner-wrapper">
         <h2 className="header">Seller information</h2>
@@ -12,7 +10,7 @@ const Seller = ({ seller, sellerRatingCount, sellerFeedback }) => {
             <span className="name-span">{seller} </span>
             <div className="rating-star-wrap">
                (
-                <a href="#" title="feedback score: 2872">{sellerRatingCount} </a>
+                <a href="#" title={`feedback score: ${sellerRatingCount}`}>{sellerRatingCount} </a>
                 <span className="star"></span>
                 )
             </div>
@@ -38,8 +36,7 @@ const Seller = ({ seller, sellerRatingCount, sellerFeedback }) => {
         </div>
       </div>
     </div>
-  );
-};
+);
 
 Seller.propTypes = {
   seller: PropTypes.string.isRequired,

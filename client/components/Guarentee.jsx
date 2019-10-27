@@ -11,7 +11,7 @@ const Guarentee = () => (
                 <span className="money-img"></span>
             </div>
             <div className="message-wrapper">
-                <div className="header">eBay Money Back Guarantee</div>
+                <div className="header">Tbay Money Back Guarantee</div>
                 <div className="message">
                     <span>Get the item you ordered or get your money back. </span>
                     <a href="#">Learn more</a>
