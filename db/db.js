@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // const data = require('./data.js');
 
 // Set up default mongoose connection
-const mongoDB = 'mongodb+srv://ethanhogan:gotigers225@cluster0-obkqw.mongodb.net/product-description-data?retryWrites=true&w=majority';
+const mongoDB = 'mongodb+srv://ethanhogan:TODO@cluster0-obkqw.mongodb.net/product-description-data?retryWrites=true&w=majority';
 mongoose.connect(mongoDB, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
