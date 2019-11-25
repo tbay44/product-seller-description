@@ -62,10 +62,14 @@ class App extends React.Component {
     window.dispatchEvent(productName);
   }
 
+
   getDataAndUpdateState() {
-    axios.get('http://tbay-description.us-east-2.elasticbeanstalk.com/data', {
+    const CONNECTION_URL = 'http://localhost:3007/data'
+    let id = window.uniqueId || 2
+    console.log(id);
+    axios.get(CONNECTION_URL, {
       params: {
-        id: window.uniqueId || 2,
+        id: id
       },
     })
       .then((response) => {
