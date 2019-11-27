@@ -12,7 +12,7 @@
   - https://github.com/tbay44/proxy
   
 ## Preview
-<p align="center">
+<p align="left">
   <img width="500" height="400" src="https://imgur.com/99iXweU.png">
 </p>
   
