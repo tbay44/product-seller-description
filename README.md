@@ -11,6 +11,11 @@
   - https://github.com/tbay44/search-bar
   - https://github.com/tbay44/proxy
   
+## Preview
+<p align="center">
+  <img width="500" height="400" src="https://imgur.com/99iXweU.png">
+</p>
+  
 ## Table of Contents
 
 1. [Getting Started](#Usage)
@@ -44,4 +49,5 @@ npm run build
 * Node
 * Express
 * Docker
+
 
